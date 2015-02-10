@@ -6,6 +6,7 @@
 		    this.editedArticle = {};
 			this.url = 'http://localhost:9595/services/Articles';
 		    
+			this.query = "";
 			this.addArticle = function() {
 					if($scope.addForm.$valid) {
 						this.newArticle.id = 0;
